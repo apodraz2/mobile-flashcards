@@ -43,7 +43,7 @@ class NewDeck extends React.Component {
 
         this.setState({ text: "" });
 
-        this.props.navigation.navigate("Decks");
+        this.props.navigation.navigate("Deck");
 
         DeviceEventEmitter.emit("AddedNewDeck");
       } catch (error) {
